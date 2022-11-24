@@ -1,5 +1,5 @@
 import 'package:celebrities_app/provider/celebrity_provider.dart';
-import 'package:celebrities_app/screen/celebrity/celebirty_widget.dart';
+import 'package:celebrities_app/screen/celebrity/celebirty_item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
