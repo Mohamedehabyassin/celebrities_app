@@ -3,11 +3,11 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 class PersonRequest {
-  // final  _apiKey = '4a08c6c7edfda4942cd5f6d6d343d9ab';
+  final url = Uri.parse(
+      'https://api.themoviedb.org/3/person/popular?api_key=4a08c6c7edfda4942cd5f6d6d343d9ab');
 
   Future fetchData() async {
-    final response = await http.get(
-        'https://api.themoviedb.org/3/person/popular?api_key=4a08c6c7edfda4942cd5f6d6d343d9ab');
+    final response = await http.get(url);
     if (response.statusCode == 200) {
       var responseObject = json.decode(response.body);
       Person person = Person.fromJson(responseObject);
