@@ -1,7 +1,6 @@
 # celebrities_app
 
-A new Responsive Flutter application working on android, ios, desktop, macos, and web.
-
+A new responsive flutter application working on android, ios, desktop, macos, and web.
 <br>
 Getting Started
 How to run :-
