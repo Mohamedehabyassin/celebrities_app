@@ -9,5 +9,5 @@ How to run :-
 2 - flutter run
 
 <br>
-Features:-
+## Features:-
 Display famous Celebirites name, image, and description.
