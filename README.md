@@ -3,11 +3,11 @@
 A new Responsive Flutter application working on android, ios, desktop, macos, and web.
 
 <br>
-## Getting Started
+##Getting Started
 How to run :-
 1 - flutter pub get 
 2 - flutter run
 
 <br>
-## Features:-
+##Features:-
 Display famous Celebirites name, image, and description.
